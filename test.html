@@ -24,8 +24,9 @@
   </div>
     <div class="column">
       <form action="https://formsubmit.co/45ec538c899fabd4dc394ced8a20d5f8" method="POST">
+      <input type="hidden" name="_captcha" value="false">
         <label for="fname">First Name</label>
-        <input type="text" id="fname" name="name" placeholder="Your name.." 
+        <input type="text" id="fname" name="Name" placeholder="Your name here.." 
          pattern="[\w'\-,.][^0-9_!¡?÷?¿/\\+=@#$%ˆ&*(){}|~<>;:[\]]{2,}$" required>
 
         <label for="email">Email</label>
@@ -33,14 +34,14 @@
         required>
 
         <label for="reason">Reason of Contact</label>
-        <select id="reason" name="subject" required>
+        <select id="reason" name="Subject" required>
           <option value="complain">Complaint</option>
           <option value="suggestion">Suggestion</option>
           <option value="query">Query</option>
         </select>
 
         <label for="subject">The Message</label>
-        <textarea id="subject" name="body" placeholder="Write message.." style="height:170px" required></textarea>
+        <textarea id="subject" name="Body" placeholder="Your message goes here.." style="height:170px" required></textarea>
         <input type="reset" value="Reset">
         <input type="submit" value="Submit" >
 
