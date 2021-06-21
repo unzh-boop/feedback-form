@@ -30,7 +30,7 @@
          pattern="[\w'\-,.][^0-9_!¡?÷?¿/\\+=@#$%ˆ&*(){}|~<>;:[\]]{2,}$" required>
 
         <label for="email">Email</label>
-        <input type="text" id="email" name="email" placeholder="Your email.." pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z.-]+.[a-z]{3}$"
+        <input type="text" id="email" name="Email" placeholder="Your email.." pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z.-]+.[a-z]{3}$"
         required>
 
         <label for="reason">Reason of Contact</label>
@@ -44,6 +44,9 @@
         <textarea id="subject" name="Body" placeholder="Your message goes here.." style="height:170px" required></textarea>
         <input type="reset" value="Reset">
         <input type="submit" value="Submit" >
+        <input type="hidden" name="_autoresponse" value="Your message has been recieved! Our team will get in touch shortly!">
+        <input type="hidden" name="_template" value="table">
+
 
       </form>
     </div>
